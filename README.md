@@ -46,5 +46,5 @@ Telegram Bot to HELP For BKB !
   * Value : Any String
   * Use : Any Text to send with Request Complete Message
 
-## Support Me
+## CONTACT CSR FOR HELP
 <a href="https://t.me/CSR_IAS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="CSR TALKS" style="height: 60px !important;width: 217px !important;" ></a>
