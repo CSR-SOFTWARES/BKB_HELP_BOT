@@ -10,10 +10,8 @@ logging.getLogger(__name__).setLevel(logging.INFO)
 # IMPORTANT VARIABLES
 OWNER_ID = vars.OWNER_ID
 
-LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nStarted the bot..."
-START_TEXT = "You Can Give Feedback and Contact Admins by Sending Messages to Me..."
-MESSAGE = "<b>Message from:</b> <code>{}</code>\n<b>Name:</b> <a href='tg://user?id={}'>{}{}</a>\n\n{}"
-
+LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nStarted the bot... \nPLEASE HELP HIM/HER !"
+START_TEXT = "Hello , \nI am Your Helping Guide . \nJust send me Your Problem/issues here I will send it to admins of BKB . \nYou can also use Me in Group of BKB with this format  ( #request <Your Problem...> ) . \n\n #BKB @bharatkibetiofficial .
 
 # ADDING HANDLERS
 def add_feedback_handlers(bot):
@@ -63,7 +61,7 @@ def about(update, context):
     else:
         message = update.callback_query.message
     message.reply_text(
-        "*My Name: [{}](tg://user?id={})\nSource: [Feedback\-and\-Request\-Bot\-TG](https://github.com/skr1405/Feedback\-and\-Request\-Bot\-TG)*".format(bot_details.first_name, bot_details.id),
+        "*MADE BY WITH LOVE ❤️: [CSR](https://t.me/CSR_IAS)\nMADE FOR: [BKB](https://t.me/bharatkibetiofficial)*".format(bot_details.first_name, bot_details.id),
         parse_mode = "markdownv2",
         disable_web_page_preview = True
     )
