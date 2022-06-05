@@ -63,7 +63,7 @@ def about(update, context):
     else:
         message = update.callback_query.message
     message.reply_text(
-        "*MADE WIH LOVE BY: [CSR](https://t.me/CSR_IAS)\nMADE FOR: [BKB](https://t.me/bharatkibetiofficial)".format(bot_details.first_name, bot_details.id),
+        "*MADE WIH LOVE BY: [CSR](https://t.me/CSR_IAS)\nMADE FOR: [BKB](https://t.me/bharatkibetiofficial)*".format(bot_details.first_name, bot_details.id),
         parse_mode = "markdownv2",
         disable_web_page_preview = True
     )
