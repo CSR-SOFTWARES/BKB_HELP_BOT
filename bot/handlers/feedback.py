@@ -10,7 +10,7 @@ logging.getLogger(__name__).setLevel(logging.INFO)
 # IMPORTANT VARIABLES
 OWNER_ID = vars.OWNER_ID
 
-LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ...\nPLEASE HELP HIM/HER !"
+LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nStarted the bot... \nPLEASE HELP HIM/HER !"
 START_TEXT = "\nI am Your Helping Guide .\nJust send me Your Problem/issues here I will send it to admins of BKB .\n\n\nYou can also use Me in Group of BKB with this format  ( #request <Your Problem...> ) \n\n #BKB @bharatkibetiofficial ."
 # ADDING HANDLERS
 def add_feedback_handlers(bot):
