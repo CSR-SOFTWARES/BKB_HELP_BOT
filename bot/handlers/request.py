@@ -30,7 +30,7 @@ IF_REQUEST_EMPTY = "<b>👋Hello <a href='tg://user?id={}'>{}</a>\nYour Request 
 # ADDING HANDLERS
 def add_request_handlers(bot):
     bot.add_handler(
-        MessageHandler(filters=Filters.chat(GROUP_ID) & Filters.entity("hashtag"), callback=user_request, run_async=True)
+        MessageHandler(filters=Filters.chat(GROUP_ID) & Filters.entity("/"), callback=user_request, run_async=True)
     )
 
     bot.add_handler(
