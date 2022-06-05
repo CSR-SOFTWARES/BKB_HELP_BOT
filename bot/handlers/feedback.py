@@ -11,7 +11,7 @@ logging.getLogger(__name__).setLevel(logging.INFO)
 OWNER_ID = vars.OWNER_ID
 
 LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nStarted the bot..."
-START_TEXT = "/n I AM YOUR HELPING GUIDE \n JUST SEND ME YOUR PROBLEM/ISSUES HERE I WILL SEND IT TO ADMINS OF BKP.\n#BKB @bharatkibetiofficial "
+START_TEXT = "I AM YOUR HELPING GUIDE \n\n\nJUST SEND ME YOUR PROBLEM/ISSUES HERE I WILL SEND IT TO ADMINS OF BKP.\n\n\n #BKB @BHARATKIBETIOFFICIAL "
 MESSAGE = "<b>Message from:</b> <code>{}</code>\n<b>Name:</b> <a href='tg://user?id={}'>{}{}</a>\n\n{}"
 
 
