@@ -1,0 +1,48 @@
+{
+    "name": "Feedback and Request Bot",
+    "description": "Telegram Bot to Request Content and Give Feedback",
+    "repository": "https://github.com/skr1405/Feedback-and-Request-Bot-TG",
+    "keywords": [
+        "telegram bot",
+        "python-telegram-bot",
+        "feedback bot"
+    ],
+    "success_url": "/welcome",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot Token from @BotFather"
+        },
+        "BASE_URL_OF_BOT": {
+            "value": "https://<App Name>.herokuapp.com/",
+            "description": "Heroku App URL"
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram ID"
+        },
+        "GROUP_LINK": {
+            "description": "Telegram Group Link"
+        },
+        "CHANNEL_LINK": {
+            "description": "Telegram Channel Link"
+        },
+        "REQUEST_GROUP_ID": {
+            "description": "Request Group ID"
+        },
+        "REQUEST_CHANNEL_ID": {
+            "description": "Request Channel ID"
+        },
+        "REQUEST_CHANNEL_LINK": {
+            "description": "Request Channel Link"
+        },
+        "REQUEST_COMPLETE_TEXT": {
+            "description": "Optional, Request Complete Message",
+            "required": false
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
