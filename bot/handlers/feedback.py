@@ -11,7 +11,7 @@ logging.getLogger(__name__).setLevel(logging.INFO)
 OWNER_ID = vars.OWNER_ID
 
 LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nStarted the bot..."
-START_TEXT = "You Can Give Feedback and Contact Admins by Sending Messages to Me..."
+START_TEXT = "/n I AM YOUR HELPING GUIDE \n JUST SEND ME YOUR PROBLEM/ISSUES HERE I WILL SEND IT TO ADMINS OF BKP.\n#BKB @bharatkibetiofficial "
 MESSAGE = "<b>Message from:</b> <code>{}</code>\n<b>Name:</b> <a href='tg://user?id={}'>{}{}</a>\n\n{}"
 
 
@@ -63,7 +63,7 @@ def about(update, context):
     else:
         message = update.callback_query.message
     message.reply_text(
-        "*My Name: [{}](tg://user?id={})\nSource: [Feedback\-and\-Request\-Bot\-TG](https://github.com/skr1405/Feedback\-and\-Request\-Bot\-TG)*".format(bot_details.first_name, bot_details.id),
+        "*MADE WIH LOVE BY: [CSR](https://t.me/CSR_IAS)\nMADE FOR: [BKB](https://t.me/bharatkibetiofficial)".format(bot_details.first_name, bot_details.id),
         parse_mode = "markdownv2",
         disable_web_page_preview = True
     )
