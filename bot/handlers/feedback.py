@@ -11,8 +11,7 @@ logging.getLogger(__name__).setLevel(logging.INFO)
 OWNER_ID = vars.OWNER_ID
 
 LOG_TEXT = "ID: <code>{}</code>\nName: <a href='tg://user?id={}'>{}{}</a>\nStarted the bot... \nPLEASE HELP HIM/HER !"
-START_TEXT = "Hello , \nI am Your Helping Guide . \nJust send me Your Problem/issues here I will send it to admins of BKB . \nYou can also use Me in Group of BKB with this format  ( #request <Your Problem...> ) . \n\n #BKB @bharatkibetiofficial .
-
+START_TEXT = "Hello , \nI am Your Helping Guide . \nJust send me Your Problem/issues here I will send it to admins of BKB . \nYou can also use Me in Group of BKB with this format  ( #request <Your Problem...> ) . \n\n #BKB @bharatkibetiofficial ."
 # ADDING HANDLERS
 def add_feedback_handlers(bot):
     bot.add_handler(
