@@ -2,9 +2,10 @@
 Telegram Bot to Request Content and Give Feedback
 
 ## Deployment
-### Heroku
+### CSR ONLY !!
 #### Use This Button to Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<a href="https://t.me/CSR_IAS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="CSR TALKS" style="height: 60px !important;width: 217px !important;" ></a>
+
 
 ## Variables
 ### *Compulsory Variables*
