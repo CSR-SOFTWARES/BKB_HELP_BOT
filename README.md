@@ -46,4 +46,4 @@ Telegram Bot to Request Content and Give Feedback
   * Use : Any Text to send with Request Complete Message
 
 ## Support Me
-<a href="https://www.buymeacoffee.com/DevSKR" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://t.me/CSR_IAS" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="CSR TALKS" style="height: 60px !important;width: 217px !important;" ></a>
