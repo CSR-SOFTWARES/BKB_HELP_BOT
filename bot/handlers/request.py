@@ -104,7 +104,7 @@ def done(update, context):
         )
     else:
         update.callback_query.answer(
-            text = "Who the hell are you?\nYou are not Admin😠",
+            text = "YOU CAN'T DO IT BECAUSE YOU ARE NOT ADMIN !!",
             show_alert = True
         )
 
@@ -147,7 +147,7 @@ def reject(update, context):
         )
     else:
         update.callback_query.answer(
-            text = "Who the hell are you?\nYou are not Admin😠",
+            text = "YOU CAN'T DO IT BECAUSE YOU ARE NOT ADMIN !!",
             show_alert = True
         )
 
