@@ -19,7 +19,7 @@ CHANNEL_ID = vars.REQUEST_CHANNEL_ID
 CHANNEL_LINK = vars.REQUEST_CHANNEL_LINK
 REQUEST_COMPLETE_TEXT = vars.REQUEST_COMPLETE_TEXT
 
-ON_REQUEST = "*👋Hello *[{}](tg://user?id={})*\n\n🔹Your Request for {} has been submitted to Admins.\n\n🔹Your Request Will Be Uploaded Soon.\n\n🔹Admins Might Be Busy. So, This Can Take Some Time⏳.\n\n👇Check Your Request Status Here👇*"
+ON_REQUEST = "*👋Hello *[{}](tg://user?id={})*\n\n🔹Your Request for {} has been submitted to Admins ( @palak189 @MedicoJ07 @Medico_Mascot )!.\n\n🔹Your Request Will Be Uploaded Soon.\n\n🔹Admins Might Be Busy. So, This Can Take Some Time⏳.\n\n👇Check Your Request Status Here👇*"
 REQUEST = "*Request By *[{}](tg://user?id={})*\n\nRequest: {}*"
 ON_DONE = "*Dear *[{}](tg://user?id={})*😎\n\nYour Request for{} is Completed🥳{}\n\n👍Thanks for Requesting\!*"
 ON_REJECT = "*Dear *[{}](tg://user?id={})*😎\n\nYour Request for{} is Rejected😥\n\nReason: {}\n\n👍Thanks for Requesting\!*"
